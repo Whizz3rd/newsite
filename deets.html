@@ -53,6 +53,16 @@
         bottom: 50px;
         right: 50px;
       }
+
+          ul.ring-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul.ring-list li::before {
+    content: "💍";
+    margin-right: 8px;
+  }
     </style>
 
 </head>
@@ -97,7 +107,7 @@
     <li><b>Vibe:</b> Cocktail Attire/Garden Party</li>
       <br>
       <p><i>A couple of reminders for day of:</i></p>
-<ul>
+<ul class="ring-list">
 <li>Shoes: We’ll be at a garden with unpaved and uneven ground - highly recommend avoiding narrow high heeled shoes. (chunky heels are your friend 😊)</li>
 <li>Weather: Sweater and sunscreen recommended - it can be very warm in the sun and likely to get chilly at night.</li>
 <li>Hydrate!! We will be 7,000ft and the altitude can sneak up on you</li></ul>
