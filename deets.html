@@ -54,13 +54,22 @@
         right: 50px;
       }
 
-          ul.ring-list {
+   ul.ring-list {
     list-style: none;
     padding-left: 0;
   }
 
-  ul.ring-list li::before {
+  ul.ring-list > li::before {
     content: "💍";
+    margin-right: 8px;
+  }
+
+  ul.ring-list ul {
+    list-style: none;
+  }
+
+  ul.ring-list ul > li::before {
+    content: "🥂";
     margin-right: 8px;
   }
     </style>
